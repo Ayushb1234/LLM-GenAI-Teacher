@@ -1,0 +1,2687 @@
+[
+  {
+    "title": "SQL",
+    "text": "(Notes by Apna College) What is Database? Database is a collection of interrelated data. What is",
+    "id": "sec-000"
+  },
+  {
+    "title": "DBMS",
+    "text": "( Database Management System ) is software used to create, manage, and organize databases. What is",
+    "id": "sec-001"
+  },
+  {
+    "title": "RDBMS?",
+    "text": "●",
+    "id": "sec-002"
+  },
+  {
+    "title": "RDBMS",
+    "text": "(Relational Database Management System) - is a",
+    "id": "sec-003"
+  },
+  {
+    "title": "DBMS",
+    "text": "based on the concept of tables (also called relations). ● Data is organized into tables (also known as relations) with rows (records) and columns (attributes). ● Eg - MySQL, PostgreSQL, Oracle etc. What is",
+    "id": "sec-004"
+  },
+  {
+    "title": "SQL",
+    "text": "is Structured Query Language - used to store, manipulate and retrieve data from",
+    "id": "sec-005"
+  },
+  {
+    "title": "RDBMS.",
+    "text": "(It is not a database, it is a language used to interact with database) We use",
+    "id": "sec-006"
+  },
+  {
+    "title": "SQL",
+    "text": "for",
+    "id": "sec-007"
+  },
+  {
+    "title": "CRUD",
+    "text": "Operations",
+    "id": "sec-008"
+  },
+  {
+    "title": "Section",
+    "text": "●",
+    "id": "sec-009"
+  },
+  {
+    "title": "CREATE",
+    "text": "- To create databases, tables, insert tuples in tables etc ●",
+    "id": "sec-010"
+  },
+  {
+    "title": "READ",
+    "text": "- To read data present in the database. ●",
+    "id": "sec-011"
+  },
+  {
+    "title": "UPDATE",
+    "text": "- Modify already inserted data. ●",
+    "id": "sec-012"
+  },
+  {
+    "title": "DELETE",
+    "text": "- Delete database, table or specific data point/tuple/row or multiple rows. *Note -",
+    "id": "sec-013"
+  },
+  {
+    "title": "SQL",
+    "text": "keywords are",
+    "id": "sec-014"
+  },
+  {
+    "title": "NOT",
+    "text": "case sensitive.",
+    "id": "sec-015"
+  },
+  {
+    "title": "Eg",
+    "text": "select is the same as",
+    "id": "sec-016"
+  },
+  {
+    "title": "SELECT",
+    "text": "in",
+    "id": "sec-017"
+  },
+  {
+    "title": "SQL",
+    "text": "v/s MySQL",
+    "id": "sec-018"
+  },
+  {
+    "title": "SQL",
+    "text": "is a language used to perform",
+    "id": "sec-019"
+  },
+  {
+    "title": "CRUD",
+    "text": "operations in Relational",
+    "id": "sec-020"
+  },
+  {
+    "title": "DB,",
+    "text": "while MySQL is a",
+    "id": "sec-021"
+  },
+  {
+    "title": "RDBMS",
+    "text": "that uses",
+    "id": "sec-022"
+  },
+  {
+    "title": "SQL",
+    "text": "Data Types In",
+    "id": "sec-023"
+  },
+  {
+    "title": "SQL,",
+    "text": "data types define the kind of data that can be stored in a column or variable. To See all data types of",
+    "id": "sec-024"
+  },
+  {
+    "title": "MYSQL,",
+    "text": "visit",
+    "id": "sec-025"
+  },
+  {
+    "title": "Section",
+    "text": "https://dev.mysql.com/doc/refman/8.0/en/data-types.html Here are the frequently used",
+    "id": "sec-026"
+  },
+  {
+    "title": "SQL",
+    "text": "data",
+    "id": "sec-027"
+  },
+  {
+    "title": "CHAR",
+    "text": "string(0-255), can store characters of fixed length",
+    "id": "sec-028"
+  },
+  {
+    "title": "VARCHAR",
+    "text": "string(0-255), can store characters up to given length",
+    "id": "sec-029"
+  },
+  {
+    "title": "BLOB",
+    "text": "string(0-65535), can store binary large object",
+    "id": "sec-030"
+  },
+  {
+    "title": "INT",
+    "text": "integer( -2,147,483,648 to 2,147,483,647 )",
+    "id": "sec-031"
+  },
+  {
+    "title": "TINYINT",
+    "text": "integer(-128 to 127)",
+    "id": "sec-032"
+  },
+  {
+    "title": "BIGINT",
+    "text": "integer( -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 )",
+    "id": "sec-033"
+  },
+  {
+    "title": "BIT",
+    "text": "can store x-bit values. x can range from 1 to 64",
+    "id": "sec-034"
+  },
+  {
+    "title": "FLOAT",
+    "text": "Decimal number - with precision to 23 digits",
+    "id": "sec-035"
+  },
+  {
+    "title": "DOUBLE",
+    "text": "Decimal number - with 24 to 53 digits",
+    "id": "sec-036"
+  },
+  {
+    "title": "BOOLEAN",
+    "text": "Boolean values 0 or 1",
+    "id": "sec-037"
+  },
+  {
+    "title": "DATE",
+    "text": "date in format of",
+    "id": "sec-038"
+  },
+  {
+    "title": "YYYY-MM-DD",
+    "text": "ranging from 1000-01-01 to 9999-12-31",
+    "id": "sec-039"
+  },
+  {
+    "title": "YEAR",
+    "text": "year in 4 digits format ranging from 1901 to 2155",
+    "id": "sec-040"
+  },
+  {
+    "title": "YEAR",
+    "text": "*Note -",
+    "id": "sec-041"
+  },
+  {
+    "title": "CHAR",
+    "text": "is for fixed length &",
+    "id": "sec-042"
+  },
+  {
+    "title": "VARCHAR",
+    "text": "is for variable length strings. Generally,",
+    "id": "sec-043"
+  },
+  {
+    "title": "VARCHAR",
+    "text": "is better as it only occupies necessary memory & works more efficiently. We can also use",
+    "id": "sec-044"
+  },
+  {
+    "title": "UNSIGNED",
+    "text": "with datatypes when we only have positive values to add. Eg -",
+    "id": "sec-045"
+  },
+  {
+    "title": "INT",
+    "text": "Types of",
+    "id": "sec-046"
+  },
+  {
+    "title": "Commands",
+    "text": "1.",
+    "id": "sec-047"
+  },
+  {
+    "title": "DQL",
+    "text": "(Data Query Language)",
+    "id": "sec-048"
+  },
+  {
+    "title": "Section",
+    "text": "Used to retrieve data from databases.",
+    "id": "sec-049"
+  },
+  {
+    "title": "(SELECT)",
+    "text": "2.",
+    "id": "sec-050"
+  },
+  {
+    "title": "DDL",
+    "text": "(Data Definition Language)",
+    "id": "sec-051"
+  },
+  {
+    "title": "Section",
+    "text": "Used to create, alter, and delete database objects like tables, indexes, etc.",
+    "id": "sec-052"
+  },
+  {
+    "title": "TRUNCATE)",
+    "text": "3.",
+    "id": "sec-053"
+  },
+  {
+    "title": "DML",
+    "text": "(Data Manipulation Language)",
+    "id": "sec-054"
+  },
+  {
+    "title": "Section",
+    "text": "Used to modify the database.",
+    "id": "sec-055"
+  },
+  {
+    "title": "DELETE)",
+    "text": "4.",
+    "id": "sec-056"
+  },
+  {
+    "title": "DCL",
+    "text": "(Data Control Language)",
+    "id": "sec-057"
+  },
+  {
+    "title": "Section",
+    "text": "Used to grant & revoke permissions.",
+    "id": "sec-058"
+  },
+  {
+    "title": "REVOKE)",
+    "text": "5.",
+    "id": "sec-059"
+  },
+  {
+    "title": "TCL",
+    "text": "(Transaction Control Language)",
+    "id": "sec-060"
+  },
+  {
+    "title": "Section",
+    "text": "Used to manage transactions.",
+    "id": "sec-061"
+  },
+  {
+    "title": "SAVEPOINT)",
+    "text": "1. Data Definition Language",
+    "id": "sec-062"
+  },
+  {
+    "title": "(DDL)",
+    "text": "Data Definition Language",
+    "id": "sec-063"
+  },
+  {
+    "title": "(DDL)",
+    "text": "is a subset of",
+    "id": "sec-064"
+  },
+  {
+    "title": "SQL",
+    "text": "(Structured Query Language) responsible for defining and managing the structure of databases and their objects.",
+    "id": "sec-065"
+  },
+  {
+    "title": "DDL",
+    "text": "commands enable you to create, modify, and delete database objects like tables, indexes, constraints, and more. Key",
+    "id": "sec-066"
+  },
+  {
+    "title": "DDL",
+    "text": "Commands",
+    "id": "sec-067"
+  },
+  {
+    "title": "are",
+    "text": "●",
+    "id": "sec-068"
+  },
+  {
+    "title": "TABLE",
+    "text": "○ Used to create a new table in the database. ○ Specifies the table name, column names, data types, constraints, and more. ○",
+    "id": "sec-069"
+  },
+  {
+    "title": "TABLE",
+    "text": "employees (id",
+    "id": "sec-070"
+  },
+  {
+    "title": "KEY,",
+    "text": "name",
+    "id": "sec-071"
+  },
+  {
+    "title": "VARCHAR(50),",
+    "text": "salary",
+    "id": "sec-072"
+  },
+  {
+    "title": "DECIMAL(10,",
+    "text": "2)); ●",
+    "id": "sec-073"
+  },
+  {
+    "title": "TABLE",
+    "text": "○ Used to modify the structure of an existing table. ○ You can add, modify, or drop columns, constraints, and more. ○",
+    "id": "sec-074"
+  },
+  {
+    "title": "TABLE",
+    "text": "employees",
+    "id": "sec-075"
+  },
+  {
+    "title": "COLUMN",
+    "text": "email",
+    "id": "sec-076"
+  },
+  {
+    "title": "VARCHAR(100);",
+    "text": "●",
+    "id": "sec-077"
+  },
+  {
+    "title": "TABLE",
+    "text": "○ Used to delete an existing table along with its data and structure. ○",
+    "id": "sec-078"
+  },
+  {
+    "title": "TABLE",
+    "text": "employees; ●",
+    "id": "sec-079"
+  },
+  {
+    "title": "INDEX",
+    "text": "○ Used to create an index on one or more columns in a table. ○ Improves query performance by enabling faster data retrieval. ○",
+    "id": "sec-080"
+  },
+  {
+    "title": "INDEX",
+    "text": "idx_employee_name ON employees (name); ●",
+    "id": "sec-081"
+  },
+  {
+    "title": "INDEX",
+    "text": "○ Used to remove an existing index from a table. ○",
+    "id": "sec-082"
+  },
+  {
+    "title": "INDEX",
+    "text": "idx_employee_name; ●",
+    "id": "sec-083"
+  },
+  {
+    "title": "CONSTRAINT",
+    "text": "○ Used to define constraints that ensure data integrity. ○ Constraints include",
+    "id": "sec-084"
+  },
+  {
+    "title": "NULL,",
+    "text": "and",
+    "id": "sec-085"
+  },
+  {
+    "title": "CHECK.",
+    "text": "○",
+    "id": "sec-086"
+  },
+  {
+    "title": "TABLE",
+    "text": "orders",
+    "id": "sec-087"
+  },
+  {
+    "title": "CONSTRAINT",
+    "text": "fk_customer",
+    "id": "sec-088"
+  },
+  {
+    "title": "KEY",
+    "text": "(customer_id)",
+    "id": "sec-089"
+  },
+  {
+    "title": "REFERENCES",
+    "text": "customers(id); ●",
+    "id": "sec-090"
+  },
+  {
+    "title": "CONSTRAINT",
+    "text": "○ Used to remove an existing constraint from a table. ○",
+    "id": "sec-091"
+  },
+  {
+    "title": "TABLE",
+    "text": "orders",
+    "id": "sec-092"
+  },
+  {
+    "title": "CONSTRAINT",
+    "text": "fk_customer; ●",
+    "id": "sec-093"
+  },
+  {
+    "title": "TABLE",
+    "text": "○ Used to delete the data inside a table, but not the table itself. ○ Syntax –",
+    "id": "sec-094"
+  },
+  {
+    "title": "TABLE",
+    "text": "table_name 2.",
+    "id": "sec-095"
+  },
+  {
+    "title": "(DQL",
+    "text": "or",
+    "id": "sec-096"
+  },
+  {
+    "title": "DQL",
+    "text": "(Data Query Language) is a subset of",
+    "id": "sec-097"
+  },
+  {
+    "title": "SQL",
+    "text": "focused on retrieving data from databases. The",
+    "id": "sec-098"
+  },
+  {
+    "title": "SELECT",
+    "text": "statement is the foundation of",
+    "id": "sec-099"
+  },
+  {
+    "title": "DQL",
+    "text": "and allows us to extract specific columns from a table. ●",
+    "id": "sec-100"
+  },
+  {
+    "title": "SELECT",
+    "text": "The",
+    "id": "sec-101"
+  },
+  {
+    "title": "SELECT",
+    "text": "statement is used to select data from a database.",
+    "id": "sec-102"
+  },
+  {
+    "title": "SELECT",
+    "text": "column1, column2, ...",
+    "id": "sec-103"
+  },
+  {
+    "title": "FROM",
+    "text": "table_name; Here, column1, column2, ... are the field names of the table. If you want to select all the fields available in the table, use the following",
+    "id": "sec-104"
+  },
+  {
+    "title": "SELECT",
+    "text": "*",
+    "id": "sec-105"
+  },
+  {
+    "title": "FROM",
+    "text": "table_name;",
+    "id": "sec-106"
+  },
+  {
+    "title": "SELECT",
+    "text": "CustomerName, City",
+    "id": "sec-107"
+  },
+  {
+    "title": "FROM",
+    "text": "Customers; ●",
+    "id": "sec-108"
+  },
+  {
+    "title": "WHERE",
+    "text": "The",
+    "id": "sec-109"
+  },
+  {
+    "title": "WHERE",
+    "text": "clause is used to filter records.",
+    "id": "sec-110"
+  },
+  {
+    "title": "SELECT",
+    "text": "column1, column2, ...",
+    "id": "sec-111"
+  },
+  {
+    "title": "FROM",
+    "text": "table_name",
+    "id": "sec-112"
+  },
+  {
+    "title": "WHERE",
+    "text": "condition;",
+    "id": "sec-113"
+  },
+  {
+    "title": "SELECT",
+    "text": "*",
+    "id": "sec-114"
+  },
+  {
+    "title": "FROM",
+    "text": "Customers",
+    "id": "sec-115"
+  },
+  {
+    "title": "WHERE",
+    "text": "Country='Mexico'; Operators used in",
+    "id": "sec-116"
+  },
+  {
+    "title": "are",
+    "text": "=",
+    "id": "sec-117"
+  },
+  {
+    "title": "Section",
+    "text": "Equal >",
+    "id": "sec-118"
+  },
+  {
+    "title": "Section",
+    "text": "Greater than <",
+    "id": "sec-119"
+  },
+  {
+    "title": "Section",
+    "text": "Less than >=",
+    "id": "sec-120"
+  },
+  {
+    "title": "Section",
+    "text": "Greater than or equal <=",
+    "id": "sec-121"
+  },
+  {
+    "title": "Section",
+    "text": "Less than or equal <>",
+    "id": "sec-122"
+  },
+  {
+    "title": "Section",
+    "text": "Not equal.",
+    "id": "sec-123"
+  },
+  {
+    "title": "Note",
+    "text": "In some versions of",
+    "id": "sec-124"
+  },
+  {
+    "title": "SQL",
+    "text": "this operator may be written as != ●",
+    "id": "sec-125"
+  },
+  {
+    "title": "AND,",
+    "text": "OR and",
+    "id": "sec-126"
+  },
+  {
+    "title": "NOT",
+    "text": "- The",
+    "id": "sec-127"
+  },
+  {
+    "title": "WHERE",
+    "text": "clause can be combined with",
+    "id": "sec-128"
+  },
+  {
+    "title": "OR,",
+    "text": "and",
+    "id": "sec-129"
+  },
+  {
+    "title": "NOT",
+    "text": "operators. - The",
+    "id": "sec-130"
+  },
+  {
+    "title": "AND",
+    "text": "and OR operators are used to filter records based on more than one",
+    "id": "sec-131"
+  },
+  {
+    "title": "condition",
+    "text": "- The",
+    "id": "sec-132"
+  },
+  {
+    "title": "AND",
+    "text": "operator displays a record if all the conditions separated by",
+    "id": "sec-133"
+  },
+  {
+    "title": "AND",
+    "text": "are",
+    "id": "sec-134"
+  },
+  {
+    "title": "TRUE.",
+    "text": "- The OR operator displays a record if any of the conditions separated by OR is",
+    "id": "sec-135"
+  },
+  {
+    "title": "TRUE.",
+    "text": "- The",
+    "id": "sec-136"
+  },
+  {
+    "title": "NOT",
+    "text": "operator displays a record if the condition(s) is",
+    "id": "sec-137"
+  },
+  {
+    "title": "SELECT",
+    "text": "column1, column2, ...",
+    "id": "sec-138"
+  },
+  {
+    "title": "FROM",
+    "text": "table_name",
+    "id": "sec-139"
+  },
+  {
+    "title": "WHERE",
+    "text": "condition1",
+    "id": "sec-140"
+  },
+  {
+    "title": "AND",
+    "text": "condition2",
+    "id": "sec-141"
+  },
+  {
+    "title": "AND",
+    "text": "condition3 ...;",
+    "id": "sec-142"
+  },
+  {
+    "title": "SELECT",
+    "text": "column1, column2, ...",
+    "id": "sec-143"
+  },
+  {
+    "title": "FROM",
+    "text": "table_name",
+    "id": "sec-144"
+  },
+  {
+    "title": "WHERE",
+    "text": "condition1 OR condition2 OR condition3 ...;",
+    "id": "sec-145"
+  },
+  {
+    "title": "SELECT",
+    "text": "column1, column2, ...",
+    "id": "sec-146"
+  },
+  {
+    "title": "FROM",
+    "text": "table_name",
+    "id": "sec-147"
+  },
+  {
+    "title": "NOT",
+    "text": "condition;",
+    "id": "sec-148"
+  },
+  {
+    "title": "SELECT",
+    "text": "*",
+    "id": "sec-149"
+  },
+  {
+    "title": "FROM",
+    "text": "Customers",
+    "id": "sec-150"
+  },
+  {
+    "title": "WHERE",
+    "text": "Country=’India’",
+    "id": "sec-151"
+  },
+  {
+    "title": "AND",
+    "text": "City=’Japan’;",
+    "id": "sec-152"
+  },
+  {
+    "title": "SELECT",
+    "text": "*",
+    "id": "sec-153"
+  },
+  {
+    "title": "FROM",
+    "text": "Customers",
+    "id": "sec-154"
+  },
+  {
+    "title": "WHERE",
+    "text": "Country=’America’",
+    "id": "sec-155"
+  },
+  {
+    "title": "AND",
+    "text": "(City=’India’ OR City=’Korea’); ●",
+    "id": "sec-156"
+  },
+  {
+    "title": "DISTINCT",
+    "text": "Removes duplicate rows from query results.",
+    "id": "sec-157"
+  },
+  {
+    "title": "DISTINCT",
+    "text": "column1, column2",
+    "id": "sec-158"
+  },
+  {
+    "title": "FROM",
+    "text": "table_name; ●",
+    "id": "sec-159"
+  },
+  {
+    "title": "Section",
+    "text": "The",
+    "id": "sec-160"
+  },
+  {
+    "title": "LIKE",
+    "text": "operator is used in a",
+    "id": "sec-161"
+  },
+  {
+    "title": "WHERE",
+    "text": "clause to search for a specified pattern in a column. There are two wildcards often used in conjunction with the",
+    "id": "sec-162"
+  },
+  {
+    "title": "operator",
+    "text": "- The percent sign (%) represents zero, one, or multiple characters - The underscore sign (_) represents one, single character",
+    "id": "sec-163"
+  },
+  {
+    "title": "SELECT",
+    "text": "*",
+    "id": "sec-164"
+  },
+  {
+    "title": "FROM",
+    "text": "employees",
+    "id": "sec-165"
+  },
+  {
+    "title": "WHERE",
+    "text": "first_name",
+    "id": "sec-166"
+  },
+  {
+    "title": "WHERE",
+    "text": "CustomerName",
+    "id": "sec-167"
+  },
+  {
+    "title": "LIKE",
+    "text": "'a%' - Finds any values that start with \"a\"",
+    "id": "sec-168"
+  },
+  {
+    "title": "WHERE",
+    "text": "CustomerName",
+    "id": "sec-169"
+  },
+  {
+    "title": "LIKE",
+    "text": "'%a' - Finds any values that end with \"a\"",
+    "id": "sec-170"
+  },
+  {
+    "title": "WHERE",
+    "text": "CustomerName",
+    "id": "sec-171"
+  },
+  {
+    "title": "LIKE",
+    "text": "'%or%' - Finds any values that have \"or\" in any position",
+    "id": "sec-172"
+  },
+  {
+    "title": "WHERE",
+    "text": "CustomerName",
+    "id": "sec-173"
+  },
+  {
+    "title": "LIKE",
+    "text": "'_r%' - Finds any values that have \"r\" in the second position",
+    "id": "sec-174"
+  },
+  {
+    "title": "WHERE",
+    "text": "CustomerName",
+    "id": "sec-175"
+  },
+  {
+    "title": "LIKE",
+    "text": "'a_%' - Finds any values that start with \"a\" and are at least 2 characters in length",
+    "id": "sec-176"
+  },
+  {
+    "title": "WHERE",
+    "text": "CustomerName",
+    "id": "sec-177"
+  },
+  {
+    "title": "LIKE",
+    "text": "'a__%' - Finds any values that start with \"a\" and are at least 3 characters in length",
+    "id": "sec-178"
+  },
+  {
+    "title": "WHERE",
+    "text": "ContactName",
+    "id": "sec-179"
+  },
+  {
+    "title": "LIKE",
+    "text": "'a%o' - Finds any values that start with \"a\" and ends with \"o\" ●",
+    "id": "sec-180"
+  },
+  {
+    "title": "IN",
+    "text": "Filters results based on a list of values in the",
+    "id": "sec-181"
+  },
+  {
+    "title": "WHERE",
+    "text": "clause.",
+    "id": "sec-182"
+  },
+  {
+    "title": "SELECT",
+    "text": "*",
+    "id": "sec-183"
+  },
+  {
+    "title": "FROM",
+    "text": "products",
+    "id": "sec-184"
+  },
+  {
+    "title": "WHERE",
+    "text": "category_id IN (1, 2, 3); ●",
+    "id": "sec-185"
+  },
+  {
+    "title": "Section",
+    "text": "Filters results within a specified range in the",
+    "id": "sec-186"
+  },
+  {
+    "title": "WHERE",
+    "text": "clause.",
+    "id": "sec-187"
+  },
+  {
+    "title": "SELECT",
+    "text": "*",
+    "id": "sec-188"
+  },
+  {
+    "title": "FROM",
+    "text": "orders",
+    "id": "sec-189"
+  },
+  {
+    "title": "WHERE",
+    "text": "order_date",
+    "id": "sec-190"
+  },
+  {
+    "title": "BETWEEN",
+    "text": "'2023-01-01'",
+    "id": "sec-191"
+  },
+  {
+    "title": "AND",
+    "text": "'2023-06-30'; ● IS",
+    "id": "sec-192"
+  },
+  {
+    "title": "Section",
+    "text": "Checks for",
+    "id": "sec-193"
+  },
+  {
+    "title": "NULL",
+    "text": "values in the",
+    "id": "sec-194"
+  },
+  {
+    "title": "WHERE",
+    "text": "clause.",
+    "id": "sec-195"
+  },
+  {
+    "title": "SELECT",
+    "text": "*",
+    "id": "sec-196"
+  },
+  {
+    "title": "FROM",
+    "text": "customers",
+    "id": "sec-197"
+  },
+  {
+    "title": "WHERE",
+    "text": "email IS",
+    "id": "sec-198"
+  },
+  {
+    "title": "NULL;",
+    "text": "● AS",
+    "id": "sec-199"
+  },
+  {
+    "title": "Section",
+    "text": "Renames columns or expressions in query results.",
+    "id": "sec-200"
+  },
+  {
+    "title": "SELECT",
+    "text": "first_name AS \"First Name\", last_name AS \"Last Name\"",
+    "id": "sec-201"
+  },
+  {
+    "title": "FROM",
+    "text": "employees; ●",
+    "id": "sec-202"
+  },
+  {
+    "title": "ORDER",
+    "text": "BY The",
+    "id": "sec-203"
+  },
+  {
+    "title": "ORDER",
+    "text": "BY clause allows you to sort the result set of a query based on one or more columns. Basic",
+    "id": "sec-204"
+  },
+  {
+    "title": "Syntax",
+    "text": "- The",
+    "id": "sec-205"
+  },
+  {
+    "title": "ORDER",
+    "text": "BY clause is used after the",
+    "id": "sec-206"
+  },
+  {
+    "title": "SELECT",
+    "text": "statement to sort query results. -",
+    "id": "sec-207"
+  },
+  {
+    "title": "SELECT",
+    "text": "column1, column2",
+    "id": "sec-208"
+  },
+  {
+    "title": "FROM",
+    "text": "table_name",
+    "id": "sec-209"
+  },
+  {
+    "title": "ORDER",
+    "text": "BY column1",
+    "id": "sec-210"
+  },
+  {
+    "title": "[ASC|DESC];",
+    "text": "Ascending and Descending",
+    "id": "sec-211"
+  },
+  {
+    "title": "Order",
+    "text": "- By default, the",
+    "id": "sec-212"
+  },
+  {
+    "title": "ORDER",
+    "text": "BY clause sorts in ascending order (smallest to largest). - You can explicitly specify descending order using the",
+    "id": "sec-213"
+  },
+  {
+    "title": "DESC",
+    "text": "keyword. -",
+    "id": "sec-214"
+  },
+  {
+    "title": "SELECT",
+    "text": "product_name, price",
+    "id": "sec-215"
+  },
+  {
+    "title": "FROM",
+    "text": "products",
+    "id": "sec-216"
+  },
+  {
+    "title": "ORDER",
+    "text": "BY price",
+    "id": "sec-217"
+  },
+  {
+    "title": "DESC;",
+    "text": "Sorting by Multiple",
+    "id": "sec-218"
+  },
+  {
+    "title": "Columns",
+    "text": "- You can sort by multiple columns by listing them sequentially in the",
+    "id": "sec-219"
+  },
+  {
+    "title": "ORDER",
+    "text": "BY clause. - Rows are first sorted based on the first column, and for rows with equal values, subsequent columns are used for further sorting. -",
+    "id": "sec-220"
+  },
+  {
+    "title": "SELECT",
+    "text": "first_name, last_name",
+    "id": "sec-221"
+  },
+  {
+    "title": "FROM",
+    "text": "employees",
+    "id": "sec-222"
+  },
+  {
+    "title": "ORDER",
+    "text": "BY last_name, first_name; Sorting by",
+    "id": "sec-223"
+  },
+  {
+    "title": "Expressions",
+    "text": "- It's possible to sort by calculated expressions, not just column values. -",
+    "id": "sec-224"
+  },
+  {
+    "title": "SELECT",
+    "text": "product_name, price, price * 1.1 AS discounted_price",
+    "id": "sec-225"
+  },
+  {
+    "title": "FROM",
+    "text": "products",
+    "id": "sec-226"
+  },
+  {
+    "title": "ORDER",
+    "text": "BY discounted_price; Sorting",
+    "id": "sec-227"
+  },
+  {
+    "title": "Values",
+    "text": "- By default,",
+    "id": "sec-228"
+  },
+  {
+    "title": "NULL",
+    "text": "values are considered the smallest in ascending order and the largest in descending order. - You can control the sorting behaviour of",
+    "id": "sec-229"
+  },
+  {
+    "title": "NULL",
+    "text": "values using the",
+    "id": "sec-230"
+  },
+  {
+    "title": "FIRST",
+    "text": "or",
+    "id": "sec-231"
+  },
+  {
+    "title": "LAST",
+    "text": "options. -",
+    "id": "sec-232"
+  },
+  {
+    "title": "SELECT",
+    "text": "column_name",
+    "id": "sec-233"
+  },
+  {
+    "title": "FROM",
+    "text": "table_name",
+    "id": "sec-234"
+  },
+  {
+    "title": "ORDER",
+    "text": "BY column_name",
+    "id": "sec-235"
+  },
+  {
+    "title": "LAST;",
+    "text": "Sorting by",
+    "id": "sec-236"
+  },
+  {
+    "title": "Position",
+    "text": "- Instead of specifying column names, you can sort by column positions in the",
+    "id": "sec-237"
+  },
+  {
+    "title": "ORDER",
+    "text": "BY clause. -",
+    "id": "sec-238"
+  },
+  {
+    "title": "SELECT",
+    "text": "product_name, price",
+    "id": "sec-239"
+  },
+  {
+    "title": "FROM",
+    "text": "products",
+    "id": "sec-240"
+  },
+  {
+    "title": "ORDER",
+    "text": "BY 2",
+    "id": "sec-241"
+  },
+  {
+    "title": "DESC,",
+    "text": "1",
+    "id": "sec-242"
+  },
+  {
+    "title": "ASC;",
+    "text": "●",
+    "id": "sec-243"
+  },
+  {
+    "title": "GROUP",
+    "text": "BY The",
+    "id": "sec-244"
+  },
+  {
+    "title": "GROUP",
+    "text": "BY clause in",
+    "id": "sec-245"
+  },
+  {
+    "title": "SQL",
+    "text": "is used to group rows from a table based on one or more columns.",
+    "id": "sec-246"
+  },
+  {
+    "title": "Syntax",
+    "text": "- The",
+    "id": "sec-247"
+  },
+  {
+    "title": "GROUP",
+    "text": "BY clause follows the",
+    "id": "sec-248"
+  },
+  {
+    "title": "SELECT",
+    "text": "statement and is used to group rows based on specified columns. -",
+    "id": "sec-249"
+  },
+  {
+    "title": "SELECT",
+    "text": "column1, aggregate_function(column2)",
+    "id": "sec-250"
+  },
+  {
+    "title": "FROM",
+    "text": "table_name",
+    "id": "sec-251"
+  },
+  {
+    "title": "GROUP",
+    "text": "BY column1; - Aggregation",
+    "id": "sec-252"
+  },
+  {
+    "title": "Functions",
+    "text": "○ Aggregation functions (e.g.,",
+    "id": "sec-253"
+  },
+  {
+    "title": "MIN)",
+    "text": "are often used with",
+    "id": "sec-254"
+  },
+  {
+    "title": "GROUP",
+    "text": "BY to calculate values for each group. ○",
+    "id": "sec-255"
+  },
+  {
+    "title": "SELECT",
+    "text": "department, AVG(salary)",
+    "id": "sec-256"
+  },
+  {
+    "title": "FROM",
+    "text": "employees",
+    "id": "sec-257"
+  },
+  {
+    "title": "GROUP",
+    "text": "BY department; - Grouping by Multiple",
+    "id": "sec-258"
+  },
+  {
+    "title": "Columns",
+    "text": "○ You can group by multiple columns by listing them in the",
+    "id": "sec-259"
+  },
+  {
+    "title": "GROUP",
+    "text": "BY clause. ○ This creates a hierarchical grouping based on the specified columns. ○",
+    "id": "sec-260"
+  },
+  {
+    "title": "SELECT",
+    "text": "department, gender, AVG(salary)",
+    "id": "sec-261"
+  },
+  {
+    "title": "FROM",
+    "text": "employees",
+    "id": "sec-262"
+  },
+  {
+    "title": "GROUP",
+    "text": "BY department, gender; -",
+    "id": "sec-263"
+  },
+  {
+    "title": "Clause",
+    "text": "○ The",
+    "id": "sec-264"
+  },
+  {
+    "title": "HAVING",
+    "text": "clause is used with",
+    "id": "sec-265"
+  },
+  {
+    "title": "GROUP",
+    "text": "BY to filter groups based on aggregate function results. ○ It's similar to the",
+    "id": "sec-266"
+  },
+  {
+    "title": "WHERE",
+    "text": "clause but operates on grouped data. ○",
+    "id": "sec-267"
+  },
+  {
+    "title": "SELECT",
+    "text": "department, AVG(salary)",
+    "id": "sec-268"
+  },
+  {
+    "title": "FROM",
+    "text": "employees",
+    "id": "sec-269"
+  },
+  {
+    "title": "GROUP",
+    "text": "BY department",
+    "id": "sec-270"
+  },
+  {
+    "title": "HAVING",
+    "text": "AVG(salary) > 50000; - Combining",
+    "id": "sec-271"
+  },
+  {
+    "title": "GROUP",
+    "text": "BY and",
+    "id": "sec-272"
+  },
+  {
+    "title": "BY",
+    "text": "○ You can use both",
+    "id": "sec-273"
+  },
+  {
+    "title": "GROUP",
+    "text": "BY and",
+    "id": "sec-274"
+  },
+  {
+    "title": "ORDER",
+    "text": "BY in the same query to control the order of grouped results. ○",
+    "id": "sec-275"
+  },
+  {
+    "title": "SELECT",
+    "text": "department,",
+    "id": "sec-276"
+  },
+  {
+    "title": "FROM",
+    "text": "employees",
+    "id": "sec-277"
+  },
+  {
+    "title": "GROUP",
+    "text": "BY department",
+    "id": "sec-278"
+  },
+  {
+    "title": "ORDER",
+    "text": "BY",
+    "id": "sec-279"
+  },
+  {
+    "title": "DESC;",
+    "text": "●",
+    "id": "sec-280"
+  },
+  {
+    "title": "FUNCTIONS",
+    "text": "These are used to perform calculations on groups of rows or entire result sets. They provide insights into data by summarising and processing information. Common Aggregate",
+    "id": "sec-281"
+  },
+  {
+    "title": "Functions",
+    "text": "-",
+    "id": "sec-282"
+  },
+  {
+    "title": "COUNT()",
+    "text": "Counts the number of rows in a group or result set. -",
+    "id": "sec-283"
+  },
+  {
+    "title": "SUM()",
+    "text": "Calculates the sum of numeric values in a group or result set. -",
+    "id": "sec-284"
+  },
+  {
+    "title": "AVG()",
+    "text": "Computes the average of numeric values in a group or result set. -",
+    "id": "sec-285"
+  },
+  {
+    "title": "MAX()",
+    "text": "Finds the maximum value in a group or result set. -",
+    "id": "sec-286"
+  },
+  {
+    "title": "MIN()",
+    "text": "Retrieves the minimum value in a group or result set. 3.",
+    "id": "sec-287"
+  },
+  {
+    "title": "LANGUAGE",
+    "text": "Data Manipulation Language",
+    "id": "sec-288"
+  },
+  {
+    "title": "(DML)",
+    "text": "in",
+    "id": "sec-289"
+  },
+  {
+    "title": "SQL",
+    "text": "encompasses commands that manipulate data within a database.",
+    "id": "sec-290"
+  },
+  {
+    "title": "DML",
+    "text": "allows you to insert, update, and delete records, ensuring the accuracy and currency of your data. ●",
+    "id": "sec-291"
+  },
+  {
+    "title": "INSERT",
+    "text": "- The",
+    "id": "sec-292"
+  },
+  {
+    "title": "INSERT",
+    "text": "statement adds new records to a table. -",
+    "id": "sec-293"
+  },
+  {
+    "title": "INTO",
+    "text": "table_name (column1, column2, ...)",
+    "id": "sec-294"
+  },
+  {
+    "title": "VALUES",
+    "text": "(value1, value2, ...); -",
+    "id": "sec-295"
+  },
+  {
+    "title": "INTO",
+    "text": "employees (first_name, last_name, salary)",
+    "id": "sec-296"
+  },
+  {
+    "title": "VALUES",
+    "text": "('John', 'Doe', 50000); ●",
+    "id": "sec-297"
+  },
+  {
+    "title": "Section",
+    "text": "- The",
+    "id": "sec-298"
+  },
+  {
+    "title": "UPDATE",
+    "text": "statement modifies existing records in a table. -",
+    "id": "sec-299"
+  },
+  {
+    "title": "UPDATE",
+    "text": "table_name",
+    "id": "sec-300"
+  },
+  {
+    "title": "SET",
+    "text": "column1 = value1, column2 = value2, ...",
+    "id": "sec-301"
+  },
+  {
+    "title": "WHERE",
+    "text": "condition; -",
+    "id": "sec-302"
+  },
+  {
+    "title": "UPDATE",
+    "text": "employees",
+    "id": "sec-303"
+  },
+  {
+    "title": "SET",
+    "text": "salary = 55000",
+    "id": "sec-304"
+  },
+  {
+    "title": "WHERE",
+    "text": "first_name = 'John'; ●",
+    "id": "sec-305"
+  },
+  {
+    "title": "Section",
+    "text": "- The",
+    "id": "sec-306"
+  },
+  {
+    "title": "DELETE",
+    "text": "statement removes records from a table. -",
+    "id": "sec-307"
+  },
+  {
+    "title": "FROM",
+    "text": "table_name",
+    "id": "sec-308"
+  },
+  {
+    "title": "WHERE",
+    "text": "condition; -",
+    "id": "sec-309"
+  },
+  {
+    "title": "FROM",
+    "text": "employees",
+    "id": "sec-310"
+  },
+  {
+    "title": "WHERE",
+    "text": "last_name = 'Doe'; 4. Data Control Language",
+    "id": "sec-311"
+  },
+  {
+    "title": "(DCL)",
+    "text": "Data Control Language focuses on the management of access rights, permissions, and security-related aspects of a database system.",
+    "id": "sec-312"
+  },
+  {
+    "title": "DCL",
+    "text": "commands are used to control who can access the data, modify the data, or perform administrative tasks within a database.",
+    "id": "sec-313"
+  },
+  {
+    "title": "DCL",
+    "text": "is an important aspect of database security, ensuring that data remains protected and only authorised users have the necessary privileges. There are two main",
+    "id": "sec-314"
+  },
+  {
+    "title": "DCL",
+    "text": "commands in",
+    "id": "sec-315"
+  },
+  {
+    "title": "GRANT",
+    "text": "and",
+    "id": "sec-316"
+  },
+  {
+    "title": "REVOKE.",
+    "text": "1.",
+    "id": "sec-317"
+  },
+  {
+    "title": "GRANT",
+    "text": "The",
+    "id": "sec-318"
+  },
+  {
+    "title": "GRANT",
+    "text": "command is used to provide specific privileges or permissions to users or roles. Privileges can include the ability to perform various actions on tables, views, procedures, and other database objects.",
+    "id": "sec-319"
+  },
+  {
+    "title": "GRANT",
+    "text": "privilege_type ON object_name TO user_or_role; In this",
+    "id": "sec-320"
+  },
+  {
+    "title": "syntax",
+    "text": "● privilege_type refers to the specific privilege or permission being granted (e.g.,",
+    "id": "sec-321"
+  },
+  {
+    "title": "DELETE).",
+    "text": "● object_name is the name of the database object (e.g., table, view) to which the privilege is being granted. ● user_or_role is the name of the user or role that is being granted the privilege.",
+    "id": "sec-322"
+  },
+  {
+    "title": "Example",
+    "text": "Granting",
+    "id": "sec-323"
+  },
+  {
+    "title": "SELECT",
+    "text": "privilege on a table named \"Employees\" to a user named",
+    "id": "sec-324"
+  },
+  {
+    "title": "SELECT",
+    "text": "ON Employees TO Analyst; 2.",
+    "id": "sec-325"
+  },
+  {
+    "title": "REVOKE",
+    "text": "The",
+    "id": "sec-326"
+  },
+  {
+    "title": "REVOKE",
+    "text": "command is used to remove or revoke specific privileges or permissions that have been previously granted to users or roles.",
+    "id": "sec-327"
+  },
+  {
+    "title": "REVOKE",
+    "text": "privilege_type ON object_name",
+    "id": "sec-328"
+  },
+  {
+    "title": "FROM",
+    "text": "user_or_role; In this",
+    "id": "sec-329"
+  },
+  {
+    "title": "syntax",
+    "text": "● privilege_type is the privilege or permission being revoked. ● object_name is the name of the database object from which the privilege is being revoked. ● user_or_role is the name of the user or role from which the privilege is being revoked.",
+    "id": "sec-330"
+  },
+  {
+    "title": "Example",
+    "text": "Revoking the",
+    "id": "sec-331"
+  },
+  {
+    "title": "SELECT",
+    "text": "privilege on the \"Employees\" table from the \"Analyst\"",
+    "id": "sec-332"
+  },
+  {
+    "title": "SELECT",
+    "text": "ON Employees",
+    "id": "sec-333"
+  },
+  {
+    "title": "FROM",
+    "text": "Analyst;",
+    "id": "sec-334"
+  },
+  {
+    "title": "DCL",
+    "text": "and Database",
+    "id": "sec-335"
+  },
+  {
+    "title": "DCL",
+    "text": "plays a crucial role in ensuring the security and integrity of a database system. By controlling access and permissions,",
+    "id": "sec-336"
+  },
+  {
+    "title": "DCL",
+    "text": "helps prevent unauthorised users from tampering with or accessing sensitive data. Proper use of",
+    "id": "sec-337"
+  },
+  {
+    "title": "GRANT",
+    "text": "and",
+    "id": "sec-338"
+  },
+  {
+    "title": "REVOKE",
+    "text": "commands ensures that only users who require specific privileges can perform certain actions on database objects. 5. Transaction Control Language",
+    "id": "sec-339"
+  },
+  {
+    "title": "(TCL)",
+    "text": "Transaction Control Language",
+    "id": "sec-340"
+  },
+  {
+    "title": "(TCL)",
+    "text": "deals with the management of transactions within a database.",
+    "id": "sec-341"
+  },
+  {
+    "title": "TCL",
+    "text": "commands are used to control the initiation, execution, and termination of transactions, which are sequences of one or more",
+    "id": "sec-342"
+  },
+  {
+    "title": "SQL",
+    "text": "statements that are executed as a single unit of work. Transactions ensure data consistency, integrity, and reliability in a database by grouping related operations together and either committing or rolling back changes based on the success or failure of those operations. There are three main",
+    "id": "sec-343"
+  },
+  {
+    "title": "TCL",
+    "text": "commands in",
+    "id": "sec-344"
+  },
+  {
+    "title": "ROLLBACK,",
+    "text": "and",
+    "id": "sec-345"
+  },
+  {
+    "title": "SAVEPOINT.",
+    "text": "1.",
+    "id": "sec-346"
+  },
+  {
+    "title": "COMMIT",
+    "text": "The",
+    "id": "sec-347"
+  },
+  {
+    "title": "COMMIT",
+    "text": "command is used to permanently save the changes made during a transaction. It makes all the changes applied to the database since the last",
+    "id": "sec-348"
+  },
+  {
+    "title": "COMMIT",
+    "text": "or",
+    "id": "sec-349"
+  },
+  {
+    "title": "ROLLBACK",
+    "text": "command permanent. Once a",
+    "id": "sec-350"
+  },
+  {
+    "title": "COMMIT",
+    "text": "is executed, the transaction is considered successful, and the changes are made permanent.",
+    "id": "sec-351"
+  },
+  {
+    "title": "Example",
+    "text": "Committing changes made during a",
+    "id": "sec-352"
+  },
+  {
+    "title": "UPDATE",
+    "text": "Employees",
+    "id": "sec-353"
+  },
+  {
+    "title": "SET",
+    "text": "Salary = Salary * 1.10",
+    "id": "sec-354"
+  },
+  {
+    "title": "WHERE",
+    "text": "Department = 'Sales';",
+    "id": "sec-355"
+  },
+  {
+    "title": "COMMIT;",
+    "text": "2.",
+    "id": "sec-356"
+  },
+  {
+    "title": "ROLLBACK",
+    "text": "The",
+    "id": "sec-357"
+  },
+  {
+    "title": "ROLLBACK",
+    "text": "command is used to undo changes made during a transaction. It reverts all the changes applied to the database since the transaction began.",
+    "id": "sec-358"
+  },
+  {
+    "title": "ROLLBACK",
+    "text": "is typically used when an error occurs during the execution of a transaction, ensuring that the database remains in a consistent state.",
+    "id": "sec-359"
+  },
+  {
+    "title": "Example",
+    "text": "Rolling back changes due to an error during a",
+    "id": "sec-360"
+  },
+  {
+    "title": "UPDATE",
+    "text": "Inventory",
+    "id": "sec-361"
+  },
+  {
+    "title": "SET",
+    "text": "Quantity = Quantity - 10",
+    "id": "sec-362"
+  },
+  {
+    "title": "WHERE",
+    "text": "ProductID = 101; -- An error occurs here",
+    "id": "sec-363"
+  },
+  {
+    "title": "ROLLBACK;",
+    "text": "3.",
+    "id": "sec-364"
+  },
+  {
+    "title": "SAVEPOINT",
+    "text": "The",
+    "id": "sec-365"
+  },
+  {
+    "title": "SAVEPOINT",
+    "text": "command creates a named point within a transaction, allowing you to set a point to which you can later",
+    "id": "sec-366"
+  },
+  {
+    "title": "ROLLBACK",
+    "text": "if needed. SAVEPOINTs are useful when you want to undo part of a transaction while preserving other changes.",
+    "id": "sec-367"
+  },
+  {
+    "title": "SAVEPOINT",
+    "text": "savepoint_name;",
+    "id": "sec-368"
+  },
+  {
+    "title": "Example",
+    "text": "Using",
+    "id": "sec-369"
+  },
+  {
+    "title": "SAVEPOINT",
+    "text": "to create a point within a",
+    "id": "sec-370"
+  },
+  {
+    "title": "UPDATE",
+    "text": "Accounts",
+    "id": "sec-371"
+  },
+  {
+    "title": "SET",
+    "text": "Balance = Balance - 100",
+    "id": "sec-372"
+  },
+  {
+    "title": "WHERE",
+    "text": "AccountID = 123;",
+    "id": "sec-373"
+  },
+  {
+    "title": "SAVEPOINT",
+    "text": "before_withdrawal;",
+    "id": "sec-374"
+  },
+  {
+    "title": "UPDATE",
+    "text": "Accounts",
+    "id": "sec-375"
+  },
+  {
+    "title": "SET",
+    "text": "Balance = Balance + 100",
+    "id": "sec-376"
+  },
+  {
+    "title": "WHERE",
+    "text": "AccountID = 456; -- An error occurs here",
+    "id": "sec-377"
+  },
+  {
+    "title": "ROLLBACK",
+    "text": "TO before_withdrawal; -- The first update is still applied",
+    "id": "sec-378"
+  },
+  {
+    "title": "TCL",
+    "text": "and Transaction",
+    "id": "sec-379"
+  },
+  {
+    "title": "Management",
+    "text": "Transaction Control Language",
+    "id": "sec-380"
+  },
+  {
+    "title": "(TCL)",
+    "text": "commands are vital for managing the integrity and consistency of a database's data. They allow you to group related changes into transactions, and in the event of errors, either commit those changes or roll them back to maintain data integrity.",
+    "id": "sec-381"
+  },
+  {
+    "title": "TCL",
+    "text": "commands are used in combination with Data Manipulation Language",
+    "id": "sec-382"
+  },
+  {
+    "title": "(DML)",
+    "text": "and other",
+    "id": "sec-383"
+  },
+  {
+    "title": "SQL",
+    "text": "commands to ensure that the database remains in a reliable state despite unforeseen errors or issues.",
+    "id": "sec-384"
+  },
+  {
+    "title": "JOINS",
+    "text": "In a",
+    "id": "sec-385"
+  },
+  {
+    "title": "DBMS,",
+    "text": "a join is an operation that combines rows from two or more tables based on a related column between them. Joins are used to retrieve data from multiple tables by linking them together using a common key or column. Types of",
+    "id": "sec-386"
+  },
+  {
+    "title": "Joins",
+    "text": "1. Inner Join 2. Outer Join 3. Cross Join 4. Self Join 1) Inner Join An inner join combines data from two or more tables based on a specified condition, known as the join condition. The result of an inner join includes only the rows where the join condition is met in all participating tables. It essentially filters out non-matching rows and returns only the rows that have matching values in both tables.",
+    "id": "sec-387"
+  },
+  {
+    "title": "SELECT",
+    "text": "columns",
+    "id": "sec-388"
+  },
+  {
+    "title": "FROM",
+    "text": "table1",
+    "id": "sec-389"
+  },
+  {
+    "title": "JOIN",
+    "text": "table2 ON table1.column = table2.column;",
+    "id": "sec-390"
+  },
+  {
+    "title": "Here",
+    "text": "● columns refers to the specific columns you want to retrieve from the tables. ● table1 and table2 are the names of the tables you are joining. ● column is the common column used to match rows between the tables. ● The ON clause specifies the join condition, where you define how the tables are related.",
+    "id": "sec-391"
+  },
+  {
+    "title": "Example",
+    "text": "Consider two",
+    "id": "sec-392"
+  },
+  {
+    "title": "tables",
+    "text": "Customers and Orders. Customers",
+    "id": "sec-393"
+  },
+  {
+    "title": "Table",
+    "text": "CustomerID CustomerName 1 Alice 2 Bob 3 Carol Orders",
+    "id": "sec-394"
+  },
+  {
+    "title": "Table",
+    "text": "OrderID CustomerID Product 101 1 Laptop 102 3 Smartphone 103 2 Headphones Inner Join",
+    "id": "sec-395"
+  },
+  {
+    "title": "SELECT",
+    "text": "Customers.CustomerName, Orders.Product",
+    "id": "sec-396"
+  },
+  {
+    "title": "FROM",
+    "text": "Customers",
+    "id": "sec-397"
+  },
+  {
+    "title": "JOIN",
+    "text": "Orders ON Customers.CustomerID = Orders.CustomerID;",
+    "id": "sec-398"
+  },
+  {
+    "title": "Result",
+    "text": "CustomerName Product Alice Laptop Bob Headphones Carol Smartphone 2) Outer Join Outer joins combine data from two or more tables based on a specified condition, just like inner joins. However, unlike inner joins, outer joins also include rows that do not have matching values in both tables. Outer joins are particularly useful when you want to include data from one table even if there is no corresponding match in the other table. Types",
+    "id": "sec-399"
+  },
+  {
+    "title": "Section",
+    "text": "There are three types of outer",
+    "id": "sec-400"
+  },
+  {
+    "title": "joins",
+    "text": "left outer join, right outer join, and full outer join. 1. Left Outer Join (Left",
+    "id": "sec-401"
+  },
+  {
+    "title": "Join)",
+    "text": "A left outer join returns all the rows from the left table and the matching rows from the right table. If there is no match in the right table, the result will still include the left table's row with",
+    "id": "sec-402"
+  },
+  {
+    "title": "NULL",
+    "text": "values in the right table's columns.",
+    "id": "sec-403"
+  },
+  {
+    "title": "SELECT",
+    "text": "Customers.CustomerName, Orders.Product",
+    "id": "sec-404"
+  },
+  {
+    "title": "FROM",
+    "text": "Customers",
+    "id": "sec-405"
+  },
+  {
+    "title": "JOIN",
+    "text": "Orders ON Customers.CustomerID = Orders.CustomerID;",
+    "id": "sec-406"
+  },
+  {
+    "title": "Result",
+    "text": "CustomerName Product Alice Laptop Bob Headphones Carol Smartphone",
+    "id": "sec-407"
+  },
+  {
+    "title": "NULL",
+    "text": "Monitor In this example, the left outer join includes all rows from the Customers table. Since there is no matching customer for the order with OrderID 103 (Monitor), the result includes a row with",
+    "id": "sec-408"
+  },
+  {
+    "title": "NULL",
+    "text": "values in the CustomerName column. 2. Right Outer Join (Right",
+    "id": "sec-409"
+  },
+  {
+    "title": "Join)",
+    "text": "A right outer join is similar to a left outer join, but it returns all rows from the right table and the matching rows from the left table. If there is no match in the left table, the result will still include the right table's row with",
+    "id": "sec-410"
+  },
+  {
+    "title": "NULL",
+    "text": "values in the left table's columns.",
+    "id": "sec-411"
+  },
+  {
+    "title": "Example",
+    "text": "Using the same Customers and Orders tables.",
+    "id": "sec-412"
+  },
+  {
+    "title": "SELECT",
+    "text": "Customers.CustomerName, Orders.Product",
+    "id": "sec-413"
+  },
+  {
+    "title": "FROM",
+    "text": "Customers",
+    "id": "sec-414"
+  },
+  {
+    "title": "JOIN",
+    "text": "Orders ON Customers.CustomerID = Orders.CustomerID;",
+    "id": "sec-415"
+  },
+  {
+    "title": "Result",
+    "text": "CustomerName Product Alice Laptop Carol Smartphone Bob Headphones",
+    "id": "sec-416"
+  },
+  {
+    "title": "NULL",
+    "text": "Keyboard Here, the right outer join includes all rows from the Orders table. Since there is no matching order for the customer with CustomerID 4, the result includes a row with",
+    "id": "sec-417"
+  },
+  {
+    "title": "NULL",
+    "text": "values in the CustomerName column. 3. Full Outer Join (Full",
+    "id": "sec-418"
+  },
+  {
+    "title": "Join)",
+    "text": "A full outer join returns all rows from both the left and right tables, including matches and non-matches. If there's no match,",
+    "id": "sec-419"
+  },
+  {
+    "title": "NULL",
+    "text": "values appear in columns from the table where there's no corresponding value.",
+    "id": "sec-420"
+  },
+  {
+    "title": "Example",
+    "text": "Using the same Customers and Orders tables.",
+    "id": "sec-421"
+  },
+  {
+    "title": "SELECT",
+    "text": "Customers.CustomerName, Orders.Product",
+    "id": "sec-422"
+  },
+  {
+    "title": "FROM",
+    "text": "Customers",
+    "id": "sec-423"
+  },
+  {
+    "title": "JOIN",
+    "text": "Orders ON Customers.CustomerID = Orders.CustomerID;",
+    "id": "sec-424"
+  },
+  {
+    "title": "Result",
+    "text": "CustomerName Product Alice Laptop Bob Headphones Carol Smartphone",
+    "id": "sec-425"
+  },
+  {
+    "title": "NULL",
+    "text": "Monitor",
+    "id": "sec-426"
+  },
+  {
+    "title": "NULL",
+    "text": "Keyboard In this full outer join example, all rows from both tables are included in the result. Both non-matching rows from the Customers and Orders tables are represented with",
+    "id": "sec-427"
+  },
+  {
+    "title": "NULL",
+    "text": "values. 3) Cross Join A cross join, also known as a Cartesian product, is a type of join operation in a Database Management System",
+    "id": "sec-428"
+  },
+  {
+    "title": "(DBMS)",
+    "text": "that combines every row from one table with every row from another table. Unlike other join types, a cross join does not require a specific condition to match rows between the tables. Instead, it generates a result set that contains all possible combinations of rows from both tables. Cross joins can lead to a large result set, especially when the participating tables have many rows.",
+    "id": "sec-429"
+  },
+  {
+    "title": "SELECT",
+    "text": "columns",
+    "id": "sec-430"
+  },
+  {
+    "title": "FROM",
+    "text": "table1",
+    "id": "sec-431"
+  },
+  {
+    "title": "JOIN",
+    "text": "table2; In this",
+    "id": "sec-432"
+  },
+  {
+    "title": "syntax",
+    "text": "● columns refers to the specific columns you want to retrieve from the cross-joined tables. ● table1 and table2 are the names of the tables you want to combine using a cross join.",
+    "id": "sec-433"
+  },
+  {
+    "title": "Example",
+    "text": "Consider two",
+    "id": "sec-434"
+  },
+  {
+    "title": "tables",
+    "text": "Students and Courses. Students",
+    "id": "sec-435"
+  },
+  {
+    "title": "Table",
+    "text": "StudentID StudentName 1 Alice 2 Bob Courses",
+    "id": "sec-436"
+  },
+  {
+    "title": "Table",
+    "text": "CourseID CourseName 101 Maths 102 Science Cross Join",
+    "id": "sec-437"
+  },
+  {
+    "title": "SELECT",
+    "text": "Students.StudentName, Courses.CourseName",
+    "id": "sec-438"
+  },
+  {
+    "title": "FROM",
+    "text": "Students",
+    "id": "sec-439"
+  },
+  {
+    "title": "JOIN",
+    "text": "Courses;",
+    "id": "sec-440"
+  },
+  {
+    "title": "Result",
+    "text": "StudentName CourseName Alice Maths Alice Science Bob Maths Bob Science In this example, the cross join between the Students and Courses tables generates all possible combinations of rows from both tables. As a result, each student is paired with each course, leading to a total of four rows in the result set. 4) Self Join A self join involves joining a table with itself. This technique is useful when a table contains hierarchical or related data and you need to compare or analyse rows within the same table. Self joins are commonly used to find relationships, hierarchies, or patterns within a single table. In a self join, you treat the table as if it were two separate tables, referring to them with different aliases.",
+    "id": "sec-441"
+  },
+  {
+    "title": "Syntax",
+    "text": "The syntax for performing a self join in",
+    "id": "sec-442"
+  },
+  {
+    "title": "SQL",
+    "text": "is as",
+    "id": "sec-443"
+  },
+  {
+    "title": "SELECT",
+    "text": "columns",
+    "id": "sec-444"
+  },
+  {
+    "title": "FROM",
+    "text": "table1 AS alias1",
+    "id": "sec-445"
+  },
+  {
+    "title": "JOIN",
+    "text": "table1 AS alias2 ON alias1.column = alias2.column; In this",
+    "id": "sec-446"
+  },
+  {
+    "title": "syntax",
+    "text": "● columns refers to the specific columns you want to retrieve from the self-joined table. ● table1 is the name of the table you're joining with itself. ● alias1 and alias2 are aliases you assign to the table instances for differentiation. ● column is the column you use as the join condition to link rows from the same table.",
+    "id": "sec-447"
+  },
+  {
+    "title": "Example",
+    "text": "Consider an Employees table that contains information about employees and their managers. Employees",
+    "id": "sec-448"
+  },
+  {
+    "title": "Table",
+    "text": "EmployeeID EmployeeName ManagerID 1 Alice 3 2 Bob 3 3 Carol",
+    "id": "sec-449"
+  },
+  {
+    "title": "NULL",
+    "text": "4 David 1 Self Join",
+    "id": "sec-450"
+  },
+  {
+    "title": "SELECT",
+    "text": "e1.EmployeeName AS Employee, e2.EmployeeName AS Manager",
+    "id": "sec-451"
+  },
+  {
+    "title": "FROM",
+    "text": "Employees AS e1",
+    "id": "sec-452"
+  },
+  {
+    "title": "JOIN",
+    "text": "Employees AS e2 ON e1.ManagerID = e2.EmployeeID;",
+    "id": "sec-453"
+  },
+  {
+    "title": "Result",
+    "text": "Employee Manager Alice Carol Bob Carol David Alice In this example, the self join is performed on the Employees table to find the relationship between employees and their managers. The join condition connects the ManagerID column in the e1 alias (representing employees) with the EmployeeID column in the e2 alias (representing managers).",
+    "id": "sec-454"
+  },
+  {
+    "title": "OPERATIONS",
+    "text": "Set operations in",
+    "id": "sec-455"
+  },
+  {
+    "title": "SQL",
+    "text": "are used to combine or manipulate the result sets of multiple",
+    "id": "sec-456"
+  },
+  {
+    "title": "SELECT",
+    "text": "queries. They allow you to perform operations similar to those in set theory, such as union, intersection, and difference, on the data retrieved from different tables or queries. Set operations provide powerful tools for managing and manipulating data, enabling you to analyse and combine information in various ways. There are four primary set operations in",
+    "id": "sec-457"
+  },
+  {
+    "title": "SQL",
+    "text": "●",
+    "id": "sec-458"
+  },
+  {
+    "title": "UNION",
+    "text": "●",
+    "id": "sec-459"
+  },
+  {
+    "title": "INTERSECT",
+    "text": "●",
+    "id": "sec-460"
+  },
+  {
+    "title": "EXCEPT",
+    "text": "(or",
+    "id": "sec-461"
+  },
+  {
+    "title": "MINUS)",
+    "text": "●",
+    "id": "sec-462"
+  },
+  {
+    "title": "ALL",
+    "text": "1.",
+    "id": "sec-463"
+  },
+  {
+    "title": "UNION",
+    "text": "The",
+    "id": "sec-464"
+  },
+  {
+    "title": "UNION",
+    "text": "operator combines the result sets of two or more",
+    "id": "sec-465"
+  },
+  {
+    "title": "SELECT",
+    "text": "queries into a single result set. It removes duplicates by default, meaning that if there are identical rows in the result sets, only one instance of each row will appear in the final result.",
+    "id": "sec-466"
+  },
+  {
+    "title": "Example",
+    "text": "Assume we have two",
+    "id": "sec-467"
+  },
+  {
+    "title": "tables",
+    "text": "Customers and Suppliers. Customers",
+    "id": "sec-468"
+  },
+  {
+    "title": "Table",
+    "text": "CustomerID CustomerName 1 Alice 2 Bob Suppliers",
+    "id": "sec-469"
+  },
+  {
+    "title": "Table",
+    "text": "SupplierID SupplierName 101 SupplierA 102 SupplierB",
+    "id": "sec-470"
+  },
+  {
+    "title": "SELECT",
+    "text": "CustomerName",
+    "id": "sec-471"
+  },
+  {
+    "title": "FROM",
+    "text": "Customers",
+    "id": "sec-472"
+  },
+  {
+    "title": "SELECT",
+    "text": "SupplierName",
+    "id": "sec-473"
+  },
+  {
+    "title": "FROM",
+    "text": "Suppliers;",
+    "id": "sec-474"
+  },
+  {
+    "title": "Result",
+    "text": "CustomerName Alice Bob SupplierA SupplierB 2.",
+    "id": "sec-475"
+  },
+  {
+    "title": "INTERSECT",
+    "text": "The",
+    "id": "sec-476"
+  },
+  {
+    "title": "INTERSECT",
+    "text": "operator returns the common rows that exist in the result sets of two or more",
+    "id": "sec-477"
+  },
+  {
+    "title": "SELECT",
+    "text": "queries. It only returns distinct rows that appear in all result sets.",
+    "id": "sec-478"
+  },
+  {
+    "title": "Example",
+    "text": "Using the same tables as before.",
+    "id": "sec-479"
+  },
+  {
+    "title": "SELECT",
+    "text": "CustomerName",
+    "id": "sec-480"
+  },
+  {
+    "title": "FROM",
+    "text": "Customers",
+    "id": "sec-481"
+  },
+  {
+    "title": "SELECT",
+    "text": "SupplierName",
+    "id": "sec-482"
+  },
+  {
+    "title": "FROM",
+    "text": "Suppliers;",
+    "id": "sec-483"
+  },
+  {
+    "title": "Result",
+    "text": "CustomerName In this example, there are no common names between customers and suppliers, so the result is an empty set. 3.",
+    "id": "sec-484"
+  },
+  {
+    "title": "EXCEPT",
+    "text": "(or",
+    "id": "sec-485"
+  },
+  {
+    "title": "MINUS)",
+    "text": "The",
+    "id": "sec-486"
+  },
+  {
+    "title": "EXCEPT",
+    "text": "operator (also known as",
+    "id": "sec-487"
+  },
+  {
+    "title": "MINUS",
+    "text": "in some databases) returns the distinct rows that are present in the result set of the first",
+    "id": "sec-488"
+  },
+  {
+    "title": "SELECT",
+    "text": "query but not in the result set of the second",
+    "id": "sec-489"
+  },
+  {
+    "title": "SELECT",
+    "text": "query.",
+    "id": "sec-490"
+  },
+  {
+    "title": "Example",
+    "text": "Using the same tables as before.",
+    "id": "sec-491"
+  },
+  {
+    "title": "SELECT",
+    "text": "CustomerName",
+    "id": "sec-492"
+  },
+  {
+    "title": "FROM",
+    "text": "Customers",
+    "id": "sec-493"
+  },
+  {
+    "title": "SELECT",
+    "text": "SupplierName",
+    "id": "sec-494"
+  },
+  {
+    "title": "FROM",
+    "text": "Suppliers;",
+    "id": "sec-495"
+  },
+  {
+    "title": "Result",
+    "text": "CustomerName Alice Bob In this example, the names \"Alice\" and \"Bob\" are customers but not suppliers, so they appear in the result set. 4.",
+    "id": "sec-496"
+  },
+  {
+    "title": "ALL",
+    "text": "The",
+    "id": "sec-497"
+  },
+  {
+    "title": "ALL",
+    "text": "operator performs the same function as the",
+    "id": "sec-498"
+  },
+  {
+    "title": "UNION",
+    "text": "operator but does not remove duplicates from the result set. It simply concatenates all rows from the different result sets.",
+    "id": "sec-499"
+  },
+  {
+    "title": "Example",
+    "text": "Using the same tables as before.",
+    "id": "sec-500"
+  },
+  {
+    "title": "SELECT",
+    "text": "CustomerName",
+    "id": "sec-501"
+  },
+  {
+    "title": "FROM",
+    "text": "Customers",
+    "id": "sec-502"
+  },
+  {
+    "title": "SELECT",
+    "text": "SupplierName",
+    "id": "sec-503"
+  },
+  {
+    "title": "FROM",
+    "text": "Suppliers;",
+    "id": "sec-504"
+  },
+  {
+    "title": "Result",
+    "text": "CustomerName Alice Bob SupplierA SupplierB Difference between Set Operations and Joins A s p e c t S e t O p e r a t i o n s J o i n s P u r p o s e M a n i p u l a t e r e s u l t s e t s b a s e d o n s e t t h e o r y p r i n c i p l e s . C o m b i n e d a t a f r o m r e l a t e d t a b l e s b a s e d o n s p e c i ﬁ e d c o n d i t i o n s . D a t a S o u r c e R e s u l t s e t s o f",
+    "id": "sec-505"
+  },
+  {
+    "title": "S E L E C T",
+    "text": "q u e r i e s . T a b l e s t h a t a r e r e l a t e d b y c o m m o n c o l u m n s . C o m b i n i n g R o w s C o m b i n e r o w s f r o m d i f f e r e n t r e s u l t s e t s . M a y r e m o v e d u p l i c a t e s . C o m b i n e r o w s f r o m d i f f e r e n t t a b l e s b a s e d o n s p e c i ﬁ e d c o n d i t i o n s . O u t p u t C o l u m n s R e q u i r e t h e",
+    "id": "sec-506"
+  },
+  {
+    "title": "S E L E C T",
+    "text": "q u e r i e s t o h a v e t h e s a m e n u m b e r o f o u t p u t c o l u m n s a n d c o m p a t i b l e d a t a t y p e s . C a n c o m b i n e c o l u m n s f r o m d i f f e r e n t t a b l e s , r e g a r d l e s s o f d a t a t y p e s o r c o l u m n n u m b e r s . C o m m o n O p e r a t i o n s",
+    "id": "sec-507"
+  },
+  {
+    "title": "J O I N .",
+    "text": "C o n d i t i o n a l R e q u i r e m e n t s N o s p e c i ﬁ c j o i n c o n d i t i o n s a r e r e q u i r e d . R e q u i r e s p e c i ﬁ e d j o i n c o n d i t i o n s f o r c o m b i n i n g d a t a . H a n d l i n g D u p l i c a t e s",
+    "id": "sec-508"
+  },
+  {
+    "title": "U N I O N",
+    "text": "r e m o v e s d u p l i c a t e s b y d e f a u l t . J o i n s d o n o t i n h e r e n t l y h a n d l e d u p l i c a t e s ; i t d e p e n d s o n t h e j o i n t y p e a n d d a t a . U s a g e S c e n a r i o s U s e f u l f o r c o m b i n i n g a n d a n a l y s i n g r e l a t e d d a t a f r o m d i f f e r e n t q u e r i e s o r t a b l e s . U s e d t o r e t r i e v e a n d r e l a t e d a t a f r o m d i f f e r e n t t a b l e s b a s e d o n t h e i r r e l a t i o n s h i p s . R e s u l t S e t S t r u c t u r e R e s u l t s e t s m a y h a v e d i f f e r e n t c o l u m n n a m e s , b u t d a t a t y p e s a n d c o u n t s m u s t m a t c h . R e s u l t s e t s c a n h a v e d i f f e r e n t c o l u m n n a m e s , d a t a t y p e s , a n d c o u n t s . P e r f o r m a n c e C o n s i d e r a t i o n s G e n e r a l l y f a s t e r a n d l e s s c o m p l e x t h a n j o i n s . J o i n s c a n b e m o r e c o m p l e x a n d r e s o u r c e - i n t e n s i v e , e s p e c i a l l y f o r l a r g e r d a t a s e t s .",
+    "id": "sec-509"
+  },
+  {
+    "title": "QUERIES",
+    "text": "Subqueries, also known as nested queries or inner queries, allow you to use the result of one query (the inner query) as the input for another query (the outer query). Subqueries are often used to retrieve data that will be used for filtering, comparison, or calculation within the context of a larger query. They are a way to break down complex tasks into smaller, manageable steps.",
+    "id": "sec-510"
+  },
+  {
+    "title": "SELECT",
+    "text": "columns",
+    "id": "sec-511"
+  },
+  {
+    "title": "FROM",
+    "text": "table",
+    "id": "sec-512"
+  },
+  {
+    "title": "WHERE",
+    "text": "column",
+    "id": "sec-513"
+  },
+  {
+    "title": "(SELECT",
+    "text": "column",
+    "id": "sec-514"
+  },
+  {
+    "title": "FROM",
+    "text": "table",
+    "id": "sec-515"
+  },
+  {
+    "title": "WHERE",
+    "text": "condition); In this",
+    "id": "sec-516"
+  },
+  {
+    "title": "syntax",
+    "text": "● columns refers to the specific columns you want to retrieve from the outer query. ● table is the name of the table you're querying. ● column is the column you're applying the operator to in the outer query. ●",
+    "id": "sec-517"
+  },
+  {
+    "title": "OPERATOR",
+    "text": "is a comparison operator such as =, >, <,",
+    "id": "sec-518"
+  },
+  {
+    "title": "IN,",
+    "text": "etc. ●",
+    "id": "sec-519"
+  },
+  {
+    "title": "(SELECT",
+    "text": "column",
+    "id": "sec-520"
+  },
+  {
+    "title": "FROM",
+    "text": "table",
+    "id": "sec-521"
+  },
+  {
+    "title": "WHERE",
+    "text": "condition) is the subquery that provides the input for the comparison.",
+    "id": "sec-522"
+  },
+  {
+    "title": "Example",
+    "text": "Consider two",
+    "id": "sec-523"
+  },
+  {
+    "title": "tables",
+    "text": "Products and Orders. Products",
+    "id": "sec-524"
+  },
+  {
+    "title": "Table",
+    "text": "ProductID ProductName Price 1 Laptop 1000 2 Smartphone 500 3 Headphones 50 Orders",
+    "id": "sec-525"
+  },
+  {
+    "title": "Table",
+    "text": "OrderID ProductID Quantity 101 1 2 102 3 1 For",
+    "id": "sec-526"
+  },
+  {
+    "title": "Example",
+    "text": "Retrieve the product names and quantities for orders with a total cost greater than the average price of all products.",
+    "id": "sec-527"
+  },
+  {
+    "title": "SELECT",
+    "text": "ProductName, Quantity",
+    "id": "sec-528"
+  },
+  {
+    "title": "FROM",
+    "text": "Products",
+    "id": "sec-529"
+  },
+  {
+    "title": "WHERE",
+    "text": "Price * Quantity >",
+    "id": "sec-530"
+  },
+  {
+    "title": "(SELECT",
+    "text": "AVG(Price)",
+    "id": "sec-531"
+  },
+  {
+    "title": "FROM",
+    "text": "Products);",
+    "id": "sec-532"
+  },
+  {
+    "title": "Result",
+    "text": "ProductName Quantity Laptop 2 Differences Between Subqueries and",
+    "id": "sec-533"
+  },
+  {
+    "title": "Joins",
+    "text": "Aspect Subqueries Joins Purpose Retrieve data for filtering, comparison, or calculation within the context of a larger query. Combine data from related tables based on specified conditions. Data Source Result of one query used as input for another query. Data from multiple related tables. Combining Rows Not used for combining rows; used to filter or evaluate data. Combines rows from different tables based on specified join conditions. Result Set Structure Subqueries return scalar values, single-column results, or small result sets. Joins return multi-column result sets. Performance Considerations Subqueries can be slower and less efficient, especially when dealing with large datasets. Joins can be more efficient for combining data from multiple tables. Complexity Subqueries can be easier to understand for simple tasks or smaller datasets. Joins can become complex, but are more suited for handling large-scale data retrieval and combination tasks. Versatility Subqueries can be used in various",
+    "id": "sec-534"
+  },
+  {
+    "title": "HAVING,",
+    "text": "etc. Joins are primarily used in the",
+    "id": "sec-535"
+  },
+  {
+    "title": "FROM",
+    "text": "clause for combining tables.",
+    "id": "sec-536"
+  }
+]

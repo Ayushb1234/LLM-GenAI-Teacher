@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Introduction",
+    "text": "Generative AI Engineer - Interview Prep Cheat Sheet 1. LLMs & GenAI Basics LLMs (Large Language Models) - bade AI models jo human-like text samajh aur generate kar sakte hain. Popular frameworks: LangChain, LLaMA, HuggingFace Transformers.",
+    "id": "sec-000"
+  },
+  {
+    "title": "Key Concepts",
+    "text": "- Zero-shot Prompting: bina example ke model ko kaam dena. - Few-shot Prompting: thode examples deke task samjhana. - Chain-of-Thought: step-by-step reasoning.",
+    "id": "sec-001"
+  },
+  {
+    "title": "Code Example (HuggingFace)",
+    "text": "from transformers import pipeline nlp = pipeline(\"text-generation\", model=\"gpt2\") print(nlp(\"Hello, AI!\")) Deployment: API banake (FastAPI/Django) model ko endpoint par serve karna. 2. Django REST API with ML Models",
+    "id": "sec-002"
+  },
+  {
+    "title": "Steps",
+    "text": "1. Django Project create karo. 2. ML model ko load karo (pickle, .pt, .h5). 3. Views me endpoint banao jo input lega, model se result nikaalega, aur return karega. 4. Serializer ka use karo JSON format maintain karne ke liye.",
+    "id": "sec-003"
+  },
+  {
+    "title": "Example",
+    "text": "from django.http import JsonResponse",
+    "id": "sec-004"
+  },
+  {
+    "title": "def predict(request)",
+    "text": "img = request.FILES['image'] result = model_infer(img) return JsonResponse({'prediction': result}) 3. Geospatial + Computer Vision Geospatial data - location-based data (maps, satellite imagery). Formats: GeoJSON, Shapefile, GeoTIFF.",
+    "id": "sec-005"
+  },
+  {
+    "title": "Libraries",
+    "text": "- geopandas: vector data ke liye - rasterio: raster data ke liye - OpenCV: image processing (blur, edge detection, object detection)",
+    "id": "sec-006"
+  },
+  {
+    "title": "Example",
+    "text": "import geopandas as gpd data = gpd.read_file(\"map.geojson\") print(data.head()) Generative AI Engineer - Interview Prep Cheat Sheet 4. RAG (Retrieval-Augmented Generation) RAG ka matlab hai LLM ko external knowledge dena taaki accurate answer aaye. Vector DB (Pinecone, FAISS) embeddings store karta hai.",
+    "id": "sec-007"
+  },
+  {
+    "title": "Steps",
+    "text": "1. Text ko embedding me convert karo (Sentence Transformers). 2. Vector DB me store karo. 3. Query ke waqt relevant vectors retrieve karke LLM ko pass karo. 5. MLOps Quick Guide",
+    "id": "sec-008"
+  },
+  {
+    "title": "Tools",
+    "text": "- Docker: app ko container me package karna. - Git: version control. - AWS/GCP/Azure: cloud deployment.",
+    "id": "sec-009"
+  },
+  {
+    "title": "Example Dockerfile",
+    "text": "FROM python:3.9 WORKDIR /app COPY requirements.txt . RUN pip install -r requirements.txt",
+    "id": "sec-010"
+  },
+  {
+    "title": "COPY . .",
+    "text": "CMD [\"python\", \"app.py\"] 6. Behavioral Questions 1. Why Vasundharaa Geo Technologies? - Geospatial AI projects me kaam karne ka interest, real-world impact.",
+    "id": "sec-011"
+  },
+  {
+    "title": "2. Past Projects Example",
+    "text": "Problem -> Solution -> Tech Stack -> Results (quantified).",
+    "id": "sec-012"
+  }
+]

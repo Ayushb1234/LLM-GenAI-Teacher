@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Introduction",
+    "text": "30-Day SDE + AI/ML Job Hunt Planner (With Timings & Breaks) Time Task",
+    "id": "sec-000"
+  },
+  {
+    "title": "6:30 – 7:00 AM",
+    "text": "Morning setup: Review yesterday’s results, set targets",
+    "id": "sec-001"
+  },
+  {
+    "title": "7:00 – 8:30 AM",
+    "text": "Job Applications & Referrals (10–15 jobs, 5–7 referrals)",
+    "id": "sec-002"
+  },
+  {
+    "title": "8:30 – 9:30 AM",
+    "text": "DSA Practice (2–3 problems: Arrays, Strings, Hashmaps, DP, Graphs)",
+    "id": "sec-003"
+  },
+  {
+    "title": "9:30 – 10:15 AM",
+    "text": "AI/ML Theory (Daily topic: Overfitting, CNNs, Transformers, etc.)",
+    "id": "sec-004"
+  },
+  {
+    "title": "10:15 – 1:00 PM",
+    "text": "Project Development (Frontend/Backend/ML model building)",
+    "id": "sec-005"
+  },
+  {
+    "title": "1:00 – 2:00 PM",
+    "text": "Lunch Break",
+    "id": "sec-006"
+  },
+  {
+    "title": "2:00 – 4:00 PM",
+    "text": "Backend/API or ML Pipeline Implementation",
+    "id": "sec-007"
+  },
+  {
+    "title": "4:00 – 5:00 PM",
+    "text": "System Design (SDE) or Model Deployment (AI/ML)",
+    "id": "sec-008"
+  },
+  {
+    "title": "5:00 – 6:00 PM",
+    "text": "Evening Snack Break",
+    "id": "sec-009"
+  },
+  {
+    "title": "6:00 – 8:00 PM",
+    "text": "Project Work: Testing, CI/CD, Documentation",
+    "id": "sec-010"
+  },
+  {
+    "title": "8:00 – 9:00 PM",
+    "text": "Dinner Break",
+    "id": "sec-011"
+  },
+  {
+    "title": "9:00 – 10:00 PM",
+    "text": "LinkedIn Posting, Resume Tuning, Mock Interviews/Revision Week 1 – Foundation & Visibility Resume + LinkedIn optimization, start first project, daily applications. Week 2 – Skill Building + Bigger Project Finish small project, start larger one, deepen DSA/AI knowledge. Week 3 – Interview Sprint Projects finalized, mock interviews, advanced DSA & AI topics. Week 4 – Conversion Push Max applications, follow-ups, strong LinkedIn visibility, final revision.",
+    "id": "sec-012"
+  }
+]

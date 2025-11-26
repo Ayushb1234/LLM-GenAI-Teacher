@@ -1,0 +1,132 @@
+# placeholder
+:root { --bg: #0b2b19; --chalk: #e8f5e9; --chalk-dim: #b2dfdb; }
+* { box-sizing: border-box }
+html, body, #root { height: 100% }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: #0b1020;
+  color: white;
+}
+.app {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 16px;
+  height: 100dvh;
+  padding: 16px;
+}
+.sidebar {
+  background: #0f1530;
+  border: 1px solid #263159;
+  border-radius: 16px;
+  padding: 12px;
+  overflow: auto;
+}
+.board {
+  position: relative;
+  background: var(--bg);
+  color: var(--chalk);
+  border-radius: 24px;
+  box-shadow: inset 0 0 140px rgba(0,0,0,.6);
+  border: 10px solid #3e2723;
+  min-height: 360px;
+}
+.board .inner {
+  font-family: 'Kalam', cursive;
+  padding: 24px;
+  font-size: 22px;
+  line-height: 1.5;
+}
+.heading {
+  font-size: 32px;
+  margin: 0 0 8px;
+  border-bottom: 2px dashed rgba(255,255,255,.15);
+  padding-bottom: 8px;
+}
+.bullet {
+  position: relative;
+  padding-left: 28px;
+  margin: 10px 0;
+}
+.bullet::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--chalk-dim);
+  font-size: 28px;
+}
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+.btn {
+  background: #203a43;
+  border: 1px solid #345;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.btn:disabled { opacity: .5; cursor: not-allowed }
+.upload {
+  border: 2px dashed #456;
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+}
+.bot {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 10px;
+}
+.bot .dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: #2ecc71; box-shadow: 0 0 10px #2ecc71;
+}
+.lang { margin-left: auto }
+.topic {
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.topic.active { background: #1a2245 }
+.script {
+  margin-top: 16px;
+  padding: 12px;
+  background: #081a1a;
+  border-radius: 12px;
+  color: #e0ffff;
+  font-size: 14px;
+}
+.small { opacity: .85; font-size: 12px }
+.row { display:flex; align-items:center; gap:10px }
+
+.toast-stack {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  display: grid;
+  gap: 8px;
+  z-index: 9999;
+}
+.toast {
+  background: #121a2e;
+  border: 1px solid #2c3e73;
+  color: #e8f0ff;
+  padding: 10px 12px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.25);
+  max-width: 360px;
+}
+.spinner {
+  width: 16px; height: 16px;
+  border: 2px solid rgba(255,255,255,.25);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg) } }
