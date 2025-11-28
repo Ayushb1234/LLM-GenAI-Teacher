@@ -1,8 +1,8 @@
-#🚀 AI Tutor System
+# AI Tutor System
 
 A smarter way to learn — powered by NLP, LLMs, multi-language voice interaction, and adaptive topic simplification.
 
-#📌 Overview
+# Overview
 
 AI Tutor System is an intelligent learning assistant that transforms raw documents (PDFs, text files, or notes) into easy-to-understand, structured learning content.
 
@@ -11,7 +11,7 @@ The system extracts text → generates chapter-wise sections → simplifies cont
 It’s basically ChatGPT meets Khan Academy vibes 👇
 📄 → 🧠 AI Understanding → 🎯 Simplified Lessons → 🗣 Interactive Learning
 
-#🌟 Key Features
+# Key Features
 
 Feature	Description
 
@@ -33,7 +33,7 @@ Feature	Description
 
 👤 Personalized Learning	Tracks user difficulty → adapts teaching style
 
-#🛠️ #Tech Stack
+# Tech Stack
 
 Layer	Technologies
 
@@ -52,34 +52,45 @@ Storage	PostgreSQL / MongoDB
 Deployment	Docker, Vercel / AWS / Render
 
 
-🧪 #System Architecture
+ # System Architecture
 
 <img width="618" height="507" alt="image" src="https://github.com/user-attachments/assets/7f93a58a-a933-4484-b179-42efa9d9e46d" />
 
 
-📥 #Installation
+ # Installation
 
 # Clone the repo
+```
 git clone https://github.com/<your-username>/ai-tutor-system.git
 
 cd ai-tutor-system
+```
 
 # Backend setup
+```
 cd backend
 pip install -r requirements.txt
+```
 
 # Frontend setup
+```
 cd ../frontend
 npm install
+```
 
 ▶️ Run the Project
+
 # Start backend
+
+```
 cd backend
 uvicorn app:app --reload
-
+```
 # Start frontend
+```
 cd frontend
 npm run dev
+```
 
 🎮 Demo & Screenshots
 
