@@ -33,46 +33,31 @@ Feature	Description
 
 👤 Personalized Learning	Tracks user difficulty → adapts teaching style
 
-#🛠️ Tech Stack
+#🛠️ #Tech Stack
 
 Layer	Technologies
 
 Frontend	React, Tailwind / Chakra UI, React-Whiteboard, Web Speech API
+
 Backend	FastAPI / Django (choose based on stack)
+
 AI / NLP	OpenAI / Llama / Groq, SpaCy, LangChain
+
 Text Extraction	PyPDF2, Tesseract OCR
+
 Audio	gTTS / Vosk / Whisper
+
 Storage	PostgreSQL / MongoDB
+
 Deployment	Docker, Vercel / AWS / Render
 
 
-#🧪 System Architecture
-         ┌───────────────┐
-         │   User Upload  │
-         └───────┬───────┘
-                 │
-         ┌───────▼────────┐
-         │ Text Extraction │
-         │  + OCR (if PDF) │
-         └───────┬────────┘
-                 │ Cleaned Text
-         ┌───────▼─────────────┐
-         │  Chapter Generator   │
-         └───────┬─────────────┘
-                 │ Topic Batches
-         ┌───────▼─────────────┐
-         │   LLM Simplifier     │
-         └───────┬─────────────┘
-                 │ Optimized Content
-   ┌─────────────▼──────────────────────┐
-   │ React Whiteboard + Voice Tutor UI  │
-   └─────────────────────┬──────────────┘
-                         │ Feedback Loop
-              ┌──────────▼─────────┐
-              │ Refinement Engine   │
-              └─────────────────────┘
+🧪 #System Architecture
 
-📥 Installation
+<img width="618" height="507" alt="image" src="https://github.com/user-attachments/assets/7f93a58a-a933-4484-b179-42efa9d9e46d" />
+
+
+📥 #Installation
 
 # Clone the repo
 git clone https://github.com/<your-username>/ai-tutor-system.git
