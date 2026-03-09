@@ -24,4 +24,8 @@ async def ingest_pdf(file: UploadFile = File(...)):
     vs = VectorStore(os.path.join(settings.DATA_DIR, "index"))
     vs.index_sections(parsed.doc_id, parsed.sections)
 
-    return UploadResponse(doc_id=parsed.doc_id, title=parsed.title, topic_ids=[s["id"] for s in parsed.sections])
+    return UploadResponse(
+    doc_id=parsed.doc_id,
+    title=parsed.title,
+    topic_ids=[s["id"] for s in parsed.sections]
+)

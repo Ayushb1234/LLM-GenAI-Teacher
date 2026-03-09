@@ -1,0 +1,101 @@
+# ---------------------------
+
+# Python
+
+# ---------------------------
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+venv/
+env/
+.venv/
+
+# Python build files
+
+build/
+dist/
+*.egg-info/
+
+# Testing / coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---------------------------
+
+# Environment variables
+
+# ---------------------------
+
+.env
+.env.*
+!.env.example
+
+# ---------------------------
+
+# Database
+
+# ---------------------------
+
+*.db
+*.sqlite3
+dev.db
+
+# ---------------------------
+
+# Logs
+
+# ---------------------------
+
+*.log
+
+# ---------------------------
+
+# Node / Frontend
+
+# ---------------------------
+
+node_modules/
+dist/
+build/
+.vite/
+
+# ---------------------------
+
+# Editor files
+
+# ---------------------------
+
+.vscode/
+.idea/
+
+# ---------------------------
+
+# OS files
+
+# ---------------------------
+
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+
+# Docker
+
+# ---------------------------
+
+docker-compose.override.yml
+
+# ---------------------------
+
+# Misc
+
+# ---------------------------
+
+*.swp
+*.swo
