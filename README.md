@@ -92,19 +92,17 @@ cd frontend
 npm run dev
 ```
 
-🎮 Demo & Screenshots
+## 🎮 Demo & Screenshots
+-------------------------
 
-🖼️ Add screenshots or GIFs here when UI is ready.
+<img width="1898" height="955" alt="image" src="https://github.com/user-attachments/assets/2da18f01-f61c-40a4-b584-50608882daf4" />
 
-Document upload screen
+<img width="1303" height="661" alt="image" src="https://github.com/user-attachments/assets/6b457c6d-9a06-43ee-b8ae-5318de4bc9df" />
 
-AI-generated chapters
 
-Whiteboard learning
 
-Voice-based interaction
-
-📚 Future Enhancements
+## 📚 Future Enhancements
+-----------------------------
 
 🧬 Adaptive Learning Model (difficulty scoring)
 
@@ -114,15 +112,18 @@ Voice-based interaction
 
 🧩 Offline Mode
 
-🤝 Contributing
+## 🤝 Contributing
+--------------------
 
 Pull requests are welcome! For major changes, please open an issue to discuss your idea first.
 
-📄 License
+## 📄 License
+-----------------
 
 MIT License — free to use, modify, and build on.
 
-✨ Author
+## ✨ Author
+--------------
 
 Ayush Choudhary
 🚀 AI/ML Developer | Backend Engineer | NLP Enthusiast
