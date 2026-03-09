@@ -99,3 +99,7 @@ docker-compose.override.yml
 
 *.swp
 *.swo
+
+
+.env
+.env.*
